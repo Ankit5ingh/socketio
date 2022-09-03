@@ -1,4 +1,4 @@
-const socket = io("ws://localhost:3001");
+const socket = io("ws://ankit5ingh.github.io/socketio/");
 
 socket.on("message", (text) => {
   const el = document.createElement("li");
